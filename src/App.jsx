@@ -1,11 +1,13 @@
 import React from 'react'
 import Accordion from './components/accordion'
+import Country from './components/countries'
 
 const App = () => {
   return (
     <div>
       {/* Accordion componnet */}
-      <Accordion/>
+      {/* <Accordion/> */}
+      <Country/>
     </div>
   )
 }
